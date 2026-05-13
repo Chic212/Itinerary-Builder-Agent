@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Header from './components/Header'
+import CalendarGrid from './components/CalendarGrid'
 import DayNav from './components/DayNav'
 import DayView from './components/DayView'
 import HotelCard from './components/HotelCard'
@@ -7,18 +8,25 @@ import QuickFacts from './components/QuickFacts'
 import { days } from './data/itinerary'
 
 export default function App() {
+  const [view, setView] = useState('calendar')
   const [activeDay, setActiveDay] = useState(0)
-  const [view, setView] = useState('itinerary') // 'itinerary' | 'hotel' | 'tips'
 
   return (
     <div className="app">
       <Header />
+
       <nav className="view-nav">
         <button
-          className={`view-tab ${view === 'itinerary' ? 'active' : ''}`}
-          onClick={() => setView('itinerary')}
+          className={`view-tab ${view === 'calendar' ? 'active' : ''}`}
+          onClick={() => setView('calendar')}
         >
-          📅 Itinerary
+          📅 Calendar
+        </button>
+        <button
+          className={`view-tab ${view === 'details' ? 'active' : ''}`}
+          onClick={() => setView('details')}
+        >
+          📋 Details
         </button>
         <button
           className={`view-tab ${view === 'hotel' ? 'active' : ''}`}
@@ -30,12 +38,13 @@ export default function App() {
           className={`view-tab ${view === 'tips' ? 'active' : ''}`}
           onClick={() => setView('tips')}
         >
-          💡 Travel Tips
+          💡 Tips
         </button>
       </nav>
 
-      <main className="main-content">
-        {view === 'itinerary' && (
+      <main className={`main-content ${view === 'calendar' ? 'main-content--wide' : ''}`}>
+        {view === 'calendar' && <CalendarGrid />}
+        {view === 'details' && (
           <>
             <DayNav days={days} activeDay={activeDay} onSelect={setActiveDay} />
             <DayView day={days[activeDay]} />
