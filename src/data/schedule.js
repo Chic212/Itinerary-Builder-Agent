@@ -109,8 +109,8 @@ export const schedule = [
       sub:  '13m bronze · 1252 AD · ¥300',type: 'highlight' },
     { text: 'Travel to Toyosu',
       sub:  '🚝 Yurikamome → Shin-Toyosu · 15 min', type: 'travel' },
-    { text: 'Travel - Tenichi',
-      sub:  '5 min walk from Itoya',      type: 'travel' },
+    { text: 'Travel - Nihonbashi',
+      sub:  'Ginza Line · 1 stop · Mitsukoshi-mae', type: 'travel' },
   ],
   // ── 12:00 PM ─────────────────────────────────────────────────────────────
   [
@@ -128,8 +128,8 @@ export const schedule = [
       sub:  'Hydrangeas in June! · Kannon statue', type: 'sightseeing' },
     { text: 'teamLab Planets (チームラボ)',
       sub:  '⚡ Barefoot immersive digital art', type: 'highlight' },
-    { text: 'Farewell Lunch - Tenichi (天一)',
-      sub:  'Ginza · Tempura · Tabelog 3.76 · lunch set ~¥2,500', type: 'dining' },
+    { text: 'Lunch - Kaneko Hannosuke (金子半之助)',
+      sub:  'Edomae tendon counter · ~¥980 · no reservations', type: 'dining' },
   ],
   // ── 1:00 PM ──────────────────────────────────────────────────────────────
   [
@@ -147,8 +147,8 @@ export const schedule = [
       sub:  'Kamakura specialty whitebait rice bowl · ~¥1,200', type: 'dining' },
     { text: 'DiverCity / Gundam Statue',
       sub:  '18m life-size RX-78 Gundam',  type: 'sightseeing' },
-    { text: '+81-3-3571-1949',
-      sub:  'Tenichi Ginza',               type: 'dining' },
+    { text: 'Travel - Hotel',
+      sub:  'Ginza Line back · ~5 min',    type: 'travel' },
   ],
   // ── 2:00 PM ──────────────────────────────────────────────────────────────
   [

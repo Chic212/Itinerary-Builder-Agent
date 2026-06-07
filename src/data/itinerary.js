@@ -582,7 +582,7 @@ export const days = [
       },
       {
         time: 'Morning',
-        timeRange: '10:00 AM – 12:00 PM',
+        timeRange: '10:00 AM – 11:30 AM',
         icon: '✏️',
         title: 'Last-Minute Shopping — Itoya & Ginza Six',
         description: 'Itoya stationery (12 floors!) for Japanese notebooks, washi tape, and pens. Ginza Six for luxury omiyage (gifts): Kyoto Isogiku tea, Shiroi Koibito cookies, Tokyo Banana.',
@@ -592,13 +592,13 @@ export const days = [
       },
       {
         time: 'Midday',
-        timeRange: '12:00 PM – 1:00 PM',
+        timeRange: '11:30 AM – 1:00 PM',
         icon: '🍱',
-        title: 'Farewell Lunch',
-        description: 'A proper farewell meal — try tempura at Tenichi (a Ginza institution since 1930) or a set lunch at one of Ginza\'s high-end restaurants at affordable lunch prices.',
-        tips: 'Many Michelin-starred Ginza restaurants offer lunch sets for ¥3000–5000 that would cost ¥20,000+ at dinner. Last chance!',
+        title: 'Farewell Lunch — Kaneko Hannosuke Tendon',
+        description: 'Hop on the Ginza Line one stop to Mitsukoshi-mae and grab a bowl at Nihonbashi Tendon Kaneko Hannosuke — a legendary, no-reservations tendon counter serving just one dish: an Edomae-style tempura rice bowl (conger eel, prawn, squid, soft-boiled egg) with a secret family sauce, for about ¥980. If the line\'s too long, Tenichi back in Ginza (an institution since 1930) is a great backup.',
+        tips: 'Get in line right at 11:30 to beat the midday rush — it\'s only 20 seats and the wait can stretch from 45 minutes to a few hours at peak times. Cash preferred, no reservations.',
         type: 'dining',
-        mapQuery: 'Tenichi+Ginza+Tokyo',
+        mapQuery: 'Nihonbashi+Tendon+Kaneko+Hannosuke+Tokyo',
         highlight: true,
       },
       {
