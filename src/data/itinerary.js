@@ -162,6 +162,17 @@ export const days = [
         highlight: true,
       },
       {
+        time: 'Morning',
+        timeRange: '9:36 AM – 9:45 AM',
+        icon: '🧳',
+        title: 'Send Luggage Ahead — Station-to-Hotel Delivery',
+        description: 'The moment you arrive at Hakone-Yumoto Station, look for the luggage forwarding counter — it\'s in the station\'s main concourse near the Tourist Information desk, right by the entrance to the Hakone Tozan department store / souvenir plaza just outside the ticket gates. Hand over your overnight bags here for same-day delivery straight to Hoshino Resort KAI Hakone — they\'ll be waiting in your room by check-in time.',
+        tips: '🧳 Don\'t skip this — it\'s a small fee per bag (roughly ¥500–1,000) and frees you to explore the museum, ropeway, and lake cruise hands-free all day. Keep a small day bag with anything you\'ll need before evening (camera, wallet, layers, swimsuit for the onsen, cash for snacks).',
+        type: 'travel',
+        mapQuery: 'Hakone+Yumoto+Station+Tourist+Information+Center',
+        highlight: true,
+      },
+      {
         time: 'Mid-Morning',
         timeRange: '9:45 AM – 11:30 AM',
         icon: '🎨',
