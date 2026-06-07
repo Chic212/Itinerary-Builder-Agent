@@ -5,6 +5,7 @@ import DayNav from './components/DayNav'
 import DayView from './components/DayView'
 import HotelCard from './components/HotelCard'
 import QuickFacts from './components/QuickFacts'
+import OptionsPage from './components/OptionsPage'
 import { days } from './data/itinerary'
 
 export default function App() {
@@ -40,6 +41,12 @@ export default function App() {
         >
           💡 Tips
         </button>
+        <button
+          className={`view-tab ${view === 'options' ? 'active' : ''}`}
+          onClick={() => setView('options')}
+        >
+          🧭 Adjust Trip
+        </button>
       </nav>
 
       <main className={`main-content ${view === 'calendar' ? 'main-content--wide' : ''}`}>
@@ -52,6 +59,7 @@ export default function App() {
         )}
         {view === 'hotel' && <HotelCard />}
         {view === 'tips' && <QuickFacts />}
+        {view === 'options' && <OptionsPage />}
       </main>
 
       <footer className="footer">
