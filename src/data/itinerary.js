@@ -173,6 +173,17 @@ export const days = [
         highlight: true,
       },
       {
+        time: 'Late Morning',
+        timeRange: '11:30 AM – 12:00 PM',
+        icon: '🚞',
+        title: 'Hakone Tozan Train & Cable Car to Sounzan',
+        description: 'From Chokoku-no-Mori Station, continue on the Hakone Tozan Railway — Japan\'s oldest mountain railway, famous for its zig-zagging switchback turns up the forested slopes (and, by mid-to-late June, hydrangeas blooming right along the tracks). Ride it to the end of the line at Gora, then transfer directly to the Hakone Tozan Cable Car, a steep funicular that climbs from Gora up to Sounzan — your gateway to the ropeway and Owakudani.',
+        tips: '🚞 Don\'t miss this pair — they\'re half the fun of getting around Hakone! Sit on the right side heading uphill for the best hydrangea views. The Hakone Free Pass covers the Tozan Train, Cable Car, Ropeway, and Pirate Ship cruise — get one at Hakone-Yumoto Station before you set off this morning.',
+        type: 'transport',
+        mapQuery: 'Hakone+Tozan+Railway+Gora+Station',
+        highlight: true,
+      },
+      {
         time: 'Midday',
         timeRange: '12:00 PM – 2:00 PM',
         icon: '🚡',
