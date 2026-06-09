@@ -228,8 +228,8 @@ export const schedule = [
   ],
   // ── 6:00 PM ──────────────────────────────────────────────────────────────
   [
-    { text: 'Travel - Yurakucho',
-      sub:  '8 min walk from hotel',       type: 'travel' },
+    { text: 'Travel - Ginza Kagari',
+      sub:  '5 min walk from hotel',       type: 'travel' },
     { text: 'Hoppy Street (ホッピー通り)',
       sub:  'Asakusa · yakitori & hoppy beer', type: 'dining' },
     { text: 'Onsen Soak (♨️)',
@@ -247,8 +247,8 @@ export const schedule = [
   ],
   // ── 7:00 PM ──────────────────────────────────────────────────────────────
   [
-    { text: 'Dinner - Yurakucho Yakitori Alley (有楽町)',
-      sub:  '⭐ Paolo from TOKYO · under JR tracks · ~¥2,000', type: 'dining' },
+    { text: 'Dinner - Ginza Kagari (銀座 篝)',
+      sub:  'Chicken paitan ramen · Tabelog 3.72 · walk-in · ~¥1,500', type: 'dining' },
     { text: 'Dinner - Komagata Dozeu (駒形どぜう)',
       sub:  'Asakusa · loach hotpot · Tabelog 3.67 · ~¥3,000', type: 'dining' },
     { text: 'Kaiseki Dinner — KAI Hakone',
@@ -266,8 +266,8 @@ export const schedule = [
   ],
   // ── 8:00 PM ──────────────────────────────────────────────────────────────
   [
-    { text: 'Yurakucho Yakitori Alley',
-      sub:  '8 min walk from Grand Ginza · no reservation', type: 'dining' },
+    { text: 'Ginza Kagari (銀座 篝)',
+      sub:  'Join queue at 6 PM · walk-in only · 5 min walk', type: 'dining' },
     { text: '+81-3-3842-4001',
       sub:  'Komagata Dozeu',              type: 'dining' },
     { text: 'Relax at Hoshino Resort KAI',
