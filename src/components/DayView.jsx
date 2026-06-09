@@ -1,4 +1,5 @@
 import ActivityCard from './ActivityCard'
+import DayMap from './DayMap'
 
 export default function DayView({ day }) {
   if (!day) return null
@@ -19,6 +20,8 @@ export default function DayView({ day }) {
           Day {day.id}
         </div>
       </div>
+
+      <DayMap day={day} />
 
       <div className="timeline">
         {day.activities.map((activity, idx) => (

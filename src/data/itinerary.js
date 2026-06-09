@@ -56,6 +56,7 @@ export const days = [
         tips: 'On Saturdays, Chuo-dori becomes a pedestrian-only street (hokousha tengoku) from 3–6 PM.',
         type: 'sightseeing',
         mapQuery: 'Ginza+Tokyo',
+        coords: [35.67, 139.7647],
       },
       {
         time: 'Evening',
@@ -66,6 +67,7 @@ export const days = [
         tips: '⭐ Paolo from TOKYO top pick. Sit at a counter bar, order yakitori skewers (tare or shio), edamame, and a nama beer. Budget ¥2,000–3,000. No reservation needed — just walk in.',
         type: 'dining',
         mapQuery: 'Yurakucho+Yakitori+Alley+Tokyo',
+        coords: [35.6752, 139.7638],
         highlight: true,
       },
     ],
@@ -87,6 +89,7 @@ export const days = [
         tips: 'Arrive before 8 AM for a peaceful experience. Draw your fortune (omikuji) for ¥100 — tie bad fortunes to the rack nearby.',
         type: 'sightseeing',
         mapQuery: 'Senso-ji+Temple+Asakusa+Tokyo',
+        coords: [35.7147, 139.7966],
         highlight: true,
       },
       {
@@ -98,6 +101,7 @@ export const days = [
         tips: 'Try ningyo-yaki (red bean cake shaped like a doll) and kaminari-okoshi (rice crackers) — Asakusa specialties.',
         type: 'shopping',
         mapQuery: 'Nakamise+Dori+Asakusa',
+        coords: [35.7143, 139.7967],
       },
       {
         time: 'Late Morning',
@@ -108,6 +112,7 @@ export const days = [
         tips: '⭐ Paolo from TOKYO top pick. The plastic food replicas (sampuru) make hilarious gifts. A good Japanese kitchen knife from here starts at ¥3,000 and will last decades.',
         type: 'shopping',
         mapQuery: 'Kappabashi+Kitchen+Town+Tokyo',
+        coords: [35.7178, 139.7939],
         highlight: true,
       },
       {
@@ -119,6 +124,7 @@ export const days = [
         tips: 'Book tickets online in advance to skip the queue. On clear days you can see Mt. Fuji to the west.',
         type: 'sightseeing',
         mapQuery: 'Tokyo+Skytree',
+        coords: [35.7101, 139.8107],
         highlight: true,
       },
       {
@@ -139,6 +145,7 @@ export const days = [
         tips: 'Order hoppy (low-alcohol barley drink) and yakitori grilled skewers — Asakusa\'s local tradition since the 1940s.',
         type: 'dining',
         mapQuery: 'Hoppy+Street+Asakusa+Tokyo',
+        coords: [35.7112, 139.7938],
       },
     ],
   },
@@ -159,6 +166,7 @@ export const days = [
         tips: 'Grab a coffee and an onigiri at the station before boarding — book the panoramic forward-facing seats up front if available.',
         type: 'travel',
         mapQuery: 'Shinjuku+Station+Odakyu+Romancecar',
+        coords: [35.6896, 139.6917],
         highlight: true,
       },
       {
@@ -170,6 +178,7 @@ export const days = [
         tips: '🧳 Don\'t skip this — it\'s a small fee per bag (roughly ¥500–1,000) and frees you to explore the museum, ropeway, and lake cruise hands-free all day. Keep a small day bag with anything you\'ll need before evening (camera, wallet, layers, swimsuit for the onsen, cash for snacks).',
         type: 'travel',
         mapQuery: 'Hakone+Yumoto+Station+Tourist+Information+Center',
+        coords: [35.2269, 139.0582],
         highlight: true,
       },
       {
@@ -181,6 +190,7 @@ export const days = [
         tips: 'A short walk from Chokoku-no-Mori Station (one stop from Hakone-Yumoto on the Hakone Tozan Line). Budget 1.5–2 hours; the open-air hot-spring foot bath inside is a nice mid-visit break.',
         type: 'culture',
         mapQuery: 'Hakone+Open+Air+Museum',
+        coords: [35.2352, 139.0284],
         highlight: true,
       },
       {
@@ -192,6 +202,7 @@ export const days = [
         tips: '🚞 Don\'t miss this pair — they\'re half the fun of getting around Hakone! Sit on the right side heading uphill for the best hydrangea views. The Hakone Free Pass covers the Tozan Train, Cable Car, Ropeway, and Pirate Ship cruise — get one at Hakone-Yumoto Station before you set off this morning.',
         type: 'transport',
         mapQuery: 'Hakone+Tozan+Railway+Gora+Station',
+        coords: [35.2316, 139.027],
         highlight: true,
       },
       {
@@ -203,6 +214,7 @@ export const days = [
         tips: 'Lunch here — the ropeway station has noodle shops with valley views. Eat one black egg per person — legend says each adds seven years to your life!',
         type: 'highlight',
         mapQuery: 'Owakudani+Hakone',
+        coords: [35.2402, 139.0247],
         highlight: true,
       },
       {
@@ -214,6 +226,7 @@ export const days = [
         tips: 'Sit on the upper deck for the best Fuji views. The shrine\'s lakeside torii is busiest at sunset — arrive a little earlier to get a clean shot before the crowds build.',
         type: 'highlight',
         mapQuery: 'Hakone+Shrine+Lake+Ashi',
+        coords: [35.193, 139.018],
         highlight: true,
       },
       {
@@ -225,6 +238,7 @@ export const days = [
         tips: '🚌 Buses run frequently along this route and the Hakone Free Pass covers the fare — no ticket purchase needed. Grab a window seat for one last mountain view before you check in and unwind.',
         type: 'travel',
         mapQuery: 'Moto-Hakone+Bus+to+Hakone-Yumoto',
+        coords: [35.2269, 139.0582],
       },
       {
         time: 'Evening',
@@ -235,6 +249,7 @@ export const days = [
         tips: 'Wash thoroughly before entering the bath. If you have tattoos, check KAI Hakone\'s policy ahead of time — you may need a private (kashikiri) bath. 💆 If you\'d like a massage or other spa treatment during your stay, ask at check-in — slots are limited and book up fast.',
         type: 'sightseeing',
         mapQuery: 'Hoshino+Resort+KAI+Hakone',
+        coords: [35.2237, 139.0585],
       },
       {
         time: 'Evening',
@@ -245,6 +260,7 @@ export const days = [
         tips: 'Wear your yukata (provided by the ryokan) to dinner — it\'s expected and part of the experience. Save room for the rice and dessert course at the end!',
         type: 'dining',
         mapQuery: 'Hoshino+Resort+KAI+Hakone+Kaiseki+Dinner',
+        coords: [35.2237, 139.0585],
         highlight: true,
       },
       {
@@ -256,6 +272,7 @@ export const days = [
         tips: '🧩 Want to go deeper? Ask the front desk about booking the ~45-minute hands-on marquetry workshop (you take home a photo frame decorated with your own inlay pattern), and stop by the adjoining KAI shop for genuine Hakone marquetry crafts — both pair perfectly with tonight\'s show.',
         type: 'culture',
         mapQuery: 'Hoshino+Resort+KAI+Hakone',
+        coords: [35.2237, 139.0585],
         highlight: true,
       },
     ],
@@ -277,6 +294,7 @@ export const days = [
         tips: 'Mornings are the quietest time at the baths — a great chance for one last soak before the day gets going.',
         type: 'sightseeing',
         mapQuery: 'Hoshino+Resort+KAI+Hakone',
+        coords: [35.2237, 139.0585],
       },
       {
         time: 'Late Morning',
@@ -287,6 +305,7 @@ export const days = [
         tips: 'When you\'re ready for lunch, simply ride the Tozan Railway back down to Hakone-Yumoto (~40 min) — note that the Cable Car only runs the *other* direction, up toward Sounzan and the ropeway, so it won\'t help on the way back.',
         type: 'sightseeing',
         mapQuery: 'Gora+Park+Hakone',
+        coords: [35.2317, 139.0326],
       },
       {
         time: 'Midday',
@@ -297,6 +316,7 @@ export const days = [
         tips: 'Kamameshi takes a little time to cook — order as soon as you sit. The set meals combining soba and kamameshi are the way to go.',
         type: 'dining',
         mapQuery: 'Hakone+Kamameshi+Soba+Hakone-Yumoto',
+        coords: [35.2269, 139.058],
       },
       {
         time: 'Afternoon',
@@ -307,6 +327,7 @@ export const days = [
         tips: 'Yosegi-zaiku puzzle boxes make great omiyage (gifts) — look for ones made in nearby Odawara, the craft\'s home region.',
         type: 'shopping',
         mapQuery: 'Hakone+Yumoto+Shopping+Street',
+        coords: [35.2265, 139.0575],
       },
       {
         time: 'Late Afternoon',
@@ -317,6 +338,7 @@ export const days = [
         tips: 'Reserve your seat in advance for this leg — early-evening Romancecars back to Tokyo can fill up, especially on weekdays.',
         type: 'travel',
         mapQuery: 'Hakone+Yumoto+Station+Romancecar',
+        coords: [35.6896, 139.6917],
         highlight: true,
       },
       {
@@ -328,6 +350,7 @@ export const days = [
         tips: '⭐ Chris Broad\'s #1 pick in all of Japan. Golden Gai cover fees (¥500–1,000) are normal — ask before entering. Order a whisky highball, canned chu-hi, or local craft beer. Budget ¥1,500–2,500 per bar. From here it\'s about a 35-minute ride on the Marunouchi + Ginza Lines back to the hotel.',
         type: 'dining',
         mapQuery: 'Golden+Gai+Shinjuku+Tokyo',
+        coords: [35.6934, 139.6997],
         highlight: true,
       },
     ],
@@ -349,6 +372,7 @@ export const days = [
         tips: 'Focus on the Honkan (main building) for Japanese art and the Hyokeikan for ancient artifacts. ¥1,000 entry.',
         type: 'culture',
         mapQuery: 'Tokyo+National+Museum+Ueno',
+        coords: [35.7189, 139.7757],
         highlight: true,
       },
       {
@@ -360,6 +384,7 @@ export const days = [
         tips: '⭐ Abroad in Japan top pick for "real Tokyo." Try menchi-katsu (fried meat patty), taiyaki (fish-shaped cake), and fresh-cut melon. The area has almost zero tourists — very authentic.',
         type: 'sightseeing',
         mapQuery: 'Yanaka+Ginza+Tokyo',
+        coords: [35.7272, 139.7635],
         highlight: true,
       },
       {
@@ -371,6 +396,7 @@ export const days = [
         tips: 'Great for affordable Japanese snacks, grilled skewers, dried seafood, and cheap cosmetics. Bargaining is sometimes possible. Eat as you browse — no need for a sit-down lunch today.',
         type: 'shopping',
         mapQuery: 'Ameyoko+Market+Ueno+Tokyo',
+        coords: [35.7082, 139.7742],
       },
       {
         time: 'Afternoon',
@@ -381,6 +407,7 @@ export const days = [
         tips: 'Visit a maid café for a uniquely Japanese experience (Anna Miller\'s or @Home Café are popular). Mandarake Complex has 8 floors of used anime/manga goods.',
         type: 'shopping',
         mapQuery: 'Akihabara+Tokyo',
+        coords: [35.7023, 139.7745],
         highlight: true,
       },
       {
@@ -392,6 +419,7 @@ export const days = [
         tips: '📞 Confirm your exact appointment time and arrive a few minutes early. Doing this last means you end the day in Ginza — close to the hotel and tonight\'s dinner, with no backtracking.',
         type: 'highlight',
         mapQuery: 'Audemars+Piguet+AP+House+Ginza+Tokyo',
+        coords: [35.6722, 139.767],
         highlight: true,
       },
       {
@@ -403,6 +431,7 @@ export const days = [
         tips: 'Ask the hotel concierge for a same-day izakaya recommendation near Ginza Station — they can often help with a reservation on short notice. Budget roughly ¥3,000–5,000 per person with drinks.',
         type: 'dining',
         mapQuery: 'Ginza+Izakaya+Tokyo',
+        coords: [35.67, 139.7647],
       },
     ],
   },
@@ -423,6 +452,7 @@ export const days = [
         tips: 'Suica/IC card works seamlessly across both lines. Total fare under ¥300.',
         type: 'transport',
         mapQuery: 'Harajuku+Station+Tokyo',
+        coords: [35.6703, 139.7026],
       },
       {
         time: 'Morning',
@@ -433,6 +463,7 @@ export const days = [
         tips: 'Free admission to the main shrine. The Inner Garden (¥500) is worth it in June for the iris display. One of the most serene spots in all of Tokyo despite being right in the city.',
         type: 'culture',
         mapQuery: 'Meiji+Jingu+Shrine+Tokyo',
+        coords: [35.6763, 139.6993],
         highlight: true,
       },
       {
@@ -444,6 +475,7 @@ export const days = [
         tips: 'Try a rainbow crêpe from one of the street stands — a quintessential Harajuku experience. Then head down to Omotesando for the upscale contrast.',
         type: 'shopping',
         mapQuery: 'Takeshita+Street+Harajuku+Tokyo',
+        coords: [35.6716, 139.7034],
       },
       {
         time: 'Midday',
@@ -454,6 +486,7 @@ export const days = [
         tips: 'Order the yuzu shio ramen (~¥1,300–1,600) with extra chashu. Omotesando Hills\' basement food floors (B2/B3) are a great casual alternative if Afuri has a long wait.',
         type: 'dining',
         mapQuery: 'Afuri+Ramen+Harajuku+Tokyo',
+        coords: [35.6695, 139.7026],
         highlight: true,
       },
       {
@@ -465,6 +498,7 @@ export const days = [
         tips: 'The Starbucks overlooking the crossing is always packed but iconic for the view. Cross it at least once — the choreography of thousands of people moving in all directions simultaneously is something to witness.',
         type: 'highlight',
         mapQuery: 'Shibuya+Crossing+Tokyo',
+        coords: [35.6595, 139.7004],
         highlight: true,
       },
       {
@@ -476,6 +510,7 @@ export const days = [
         tips: '⚠️ Book timed-entry tickets in advance at shibuya-sky.jp — ¥2,000 per person, and these sell out weeks ahead. The 45th-floor indoor lounge has drinks and a gift shop.',
         type: 'sightseeing',
         mapQuery: 'Shibuya+Sky+Observatory+Tokyo',
+        coords: [35.658, 139.702],
         highlight: true,
       },
       {
@@ -487,6 +522,7 @@ export const days = [
         tips: 'Nakameguro is arguably Tokyo\'s most atmospheric neighbourhood for an evening stroll. The walk from Nakameguro Station to Yoroniku in Ebisu is about 10 minutes — plenty of time to browse en route.',
         type: 'sightseeing',
         mapQuery: 'Nakameguro+Canal+Tokyo',
+        coords: [35.6485, 139.6979],
       },
       {
         time: 'Evening',
@@ -497,6 +533,7 @@ export const days = [
         tips: '📞 Reservation confirmed for 7:15 PM — arrive on time, tables turn quickly. Dress neatly; this is one of the most refined dining experiences on the trip. Premium wagyu omakase courses run well above typical yakiniku prices.',
         type: 'dining',
         mapQuery: 'Yoroniku+Tokyo',
+        coords: [35.6471, 139.7154],
         highlight: true,
       },
     ],
@@ -518,6 +555,7 @@ export const days = [
         tips: 'The monorail ride itself is a highlight — sit at the front for a driver\'s-eye view. Buy a 1-day Yurikamome pass — you\'ll use it again to reach Toyosu this morning.',
         type: 'sightseeing',
         mapQuery: 'Odaiba+Tokyo',
+        coords: [35.627, 139.7756],
         highlight: true,
       },
       {
@@ -529,6 +567,7 @@ export const days = [
         tips: 'Your 1-day Yurikamome pass covers this leg too. Time it so you arrive a few minutes before your entry slot.',
         type: 'transport',
         mapQuery: 'Shin-Toyosu+Station+Tokyo',
+        coords: [35.6447, 139.7844],
       },
       {
         time: 'Late Morning',
@@ -539,6 +578,7 @@ export const days = [
         tips: 'BOOK TICKETS ONLINE IN ADVANCE — they sell out weeks ahead. Wear clothes you don\'t mind getting wet. The experience takes 1.5–2 hours.',
         type: 'culture',
         mapQuery: 'teamLab+Planets+Toyosu+Tokyo',
+        coords: [35.645, 139.786],
         highlight: true,
       },
       {
@@ -550,6 +590,7 @@ export const days = [
         tips: 'Tabelog-rated and very popular at peak lunch hours — arrive right at 1:00 to beat the rush. English menu available. ~¥2,000–5,000 per person.',
         type: 'dining',
         mapQuery: 'Gyukatsu+Kyoto+Katsugyu+DiverCity+Tokyo',
+        coords: [35.6256, 139.7754],
         highlight: true,
       },
       {
@@ -561,6 +602,7 @@ export const days = [
         tips: 'Even if you\'re not an anime fan, the Gundam statue is an incredible piece of engineering. Free to view from outside.',
         type: 'sightseeing',
         mapQuery: 'DiverCity+Gundam+Odaiba+Tokyo',
+        coords: [35.6256, 139.7754],
       },
       {
         time: 'Late Afternoon',
@@ -571,6 +613,7 @@ export const days = [
         tips: 'The sunset view from Odaiba Beach with Rainbow Bridge and the Tokyo skyline as backdrop is spectacular.',
         type: 'sightseeing',
         mapQuery: 'Odaiba+Beach+Tokyo',
+        coords: [35.627, 139.776],
       },
       {
         time: 'Evening',
@@ -581,6 +624,7 @@ export const days = [
         tips: 'The outer market is open evenings. Sushi Dai and Daiwa Sushi are legendary (long queues, arrive early or late). Also try fresh oysters and grilled scallops at the stalls. Budget about 30 minutes for the trip over from Odaiba.',
         type: 'dining',
         mapQuery: 'Tsukiji+Outer+Market+Tokyo',
+        coords: [35.6654, 139.7706],
         highlight: true,
       },
     ],
@@ -602,6 +646,7 @@ export const days = [
         tips: 'Try a morning set (morning teishoku) at a classic kissaten: toast, soft-boiled egg, and coffee for around ¥500.',
         type: 'dining',
         mapQuery: 'Ginza+Tokyo',
+        coords: [35.67, 139.7647],
       },
       {
         time: 'Morning',
@@ -612,6 +657,7 @@ export const days = [
         tips: 'Tax-free shopping (免税) is available for purchases over ¥5000 at most department stores. Bring your passport.',
         type: 'shopping',
         mapQuery: 'Itoya+Ginza+Tokyo',
+        coords: [35.6705, 139.7644],
       },
       {
         time: 'Midday',
@@ -622,6 +668,7 @@ export const days = [
         tips: 'Get in line right at 11:30 to beat the midday rush — it\'s only 20 seats and the wait can stretch from 45 minutes to a few hours at peak times. Cash preferred, no reservations.',
         type: 'dining',
         mapQuery: 'Nihonbashi+Tendon+Kaneko+Hannosuke+Tokyo',
+        coords: [35.6834, 139.7742],
         highlight: true,
       },
       {
@@ -633,6 +680,7 @@ export const days = [
         tips: 'You can also ship luggage (takuhaibin) directly to the airport via Yamato Transport (¥1500–2000 per bag, needs to be arranged the previous day).',
         type: 'transport',
         mapQuery: 'Grand+Ginza+Hotel+Tokyo',
+        coords: [35.6697, 139.7692],
       },
       {
         time: 'Late Afternoon',
@@ -643,6 +691,7 @@ export const days = [
         tips: 'Load remaining Suica card balance onto your phone before departure — Suica on Apple/Google Pay works internationally! Or surrender the card at the station for a ¥500 deposit refund.',
         type: 'transport',
         mapQuery: 'Narita+International+Airport',
+        coords: [35.772, 140.3929],
       },
       {
         time: 'Evening',
@@ -653,6 +702,7 @@ export const days = [
         tips: 'Check in for your Narita → Taipei flight at least 3 hours early for international departure. Confirm whether you need to surrender your IC card for a deposit refund, and grab one last conbini (convenience store) snack run before boarding!',
         type: 'travel',
         mapQuery: 'Narita+International+Airport+Departures',
+        coords: [35.772, 140.3929],
       },
     ],
   },
