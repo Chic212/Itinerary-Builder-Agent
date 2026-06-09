@@ -36,7 +36,8 @@ export const schedule = [
   // ── 7:00 AM ──────────────────────────────────────────────────────────────
   [
     { text: 'Depart for Airport',          type: 'travel' },
-    null,
+    { text: 'Travel - Asakusa',
+      sub:  'Toei Asakusa Line · 22 min · arrive 7:22 AM', type: 'travel' },
     { text: 'Pack overnight bag',          type: 'prep' },
     { text: 'Wake up · morning onsen',
       sub:  '♨️ Quietest soak of the day',  type: 'sightseeing' },
@@ -48,8 +49,8 @@ export const schedule = [
   // ── 8:00 AM ──────────────────────────────────────────────────────────────
   [
     { text: 'Travel - Japan ✈️',           type: 'travel' },
-    { text: 'Travel - Asakusa',
-      sub:  'Toei Asakusa Line · 22 min',  type: 'travel' },
+    { text: 'Senso-ji Temple (浅草寺)',
+      sub:  '⛩️ Arrive early — before the crowds',  type: 'highlight' },
     { text: 'Depart for Hakone (8:11 AM)',
       sub:  'Odakyu Romancecar fr. Shinjuku', type: 'travel' },
     { text: 'Breakfast — Hoshino Resort KAI',
@@ -63,8 +64,8 @@ export const schedule = [
   // ── 9:00 AM ──────────────────────────────────────────────────────────────
   [
     { text: 'In Flight ✈️',               type: 'travel' },
-    { text: 'Senso-ji Temple (浅草寺)',
-      sub:  'Go early — beat the crowds',  type: 'highlight' },
+    { text: 'Nakamise Shopping Street',
+      sub:  'Traditional snacks · souvenirs', type: 'shopping' },
     { text: 'Romancecar to Hakone',
       sub:  'Mountain views · ~85 min',    type: 'travel' },
     { text: 'Pack up & check out',
@@ -81,8 +82,8 @@ export const schedule = [
   // ── 10:00 AM ─────────────────────────────────────────────────────────────
   [
     { text: 'In Flight ✈️',               type: 'travel' },
-    { text: 'Nakamise Shopping Street',
-      sub:  'Try ningyo-yaki cakes',       type: 'shopping' },
+    { text: 'Kappabashi Kitchen Town (合羽橋)',
+      sub:  '⭐ Paolo from TOKYO · knives · ceramics · sampuru', type: 'shopping' },
     { text: 'Hakone Open-Air Museum',
       sub:  '⭐ Picasso pavilion · sculpture park', type: 'culture' },
     { text: 'Gora Park (強羅公園)',
@@ -174,8 +175,8 @@ export const schedule = [
   // ── 3:00 PM ──────────────────────────────────────────────────────────────
   [
     null,
-    { text: 'Kappabashi Kitchen Town (合羽橋)',
-      sub:  '⭐ Paolo from TOKYO · 200+ pro kitchen shops', type: 'shopping' },
+    { text: 'Asakusa neighbourhood',
+      sub:  'Side streets · temple area · local cafés', type: 'sightseeing' },
     { text: 'Hakone Shrine (箱根神社)',
       sub:  '⭐ Iconic red torii gate in the lake', type: 'highlight' },
     { text: 'One Last Onsen Soak',
@@ -193,8 +194,8 @@ export const schedule = [
   [
     { text: 'Ginza Stroll (銀座)',
       sub:  'Chuo-dori pedestrian street · Sat only', type: 'sightseeing' },
-    { text: 'Kappabashi Kitchen Town',
-      sub:  'Food replicas · knives · ceramics', type: 'shopping' },
+    { text: 'Free afternoon · Asakusa',
+      sub:  'Browse or rest before dinner', type: 'sightseeing' },
     { text: 'Hakone Shrine Lakeside Walk',
       sub:  'Photo spot · Mt. Fuji views',  type: 'sightseeing' },
     { text: 'Travel - Hakone-Yumoto Sta.',
@@ -203,16 +204,16 @@ export const schedule = [
       sub:  '⌚ Audemars Piguet · Ginza · guided experience', type: 'highlight' },
     { text: 'Daikanyama (代官山)',
       sub:  'T-Site bookstore · boutiques · canal', type: 'sightseeing' },
-    { text: 'Toyota Mega Web',
-      sub:  'Free entry · concept cars & test drives', type: 'sightseeing' },
+    { text: 'Miraikan Science Museum',
+      sub:  '🤖 ASIMO robots · AI & space exhibits · ¥630', type: 'culture' },
     null,
   ],
   // ── 5:00 PM ──────────────────────────────────────────────────────────────
   [
     { text: 'Ginza Stroll',
       sub:  'Itoya · Mikimoto · Hermès flagship', type: 'sightseeing' },
-    { text: 'Travel - Back to Asakusa',
-      sub:  'Short walk',                  type: 'travel' },
+    { text: 'Dusk stroll · Asakusa',
+      sub:  'Riverside views · Nakamise at dusk', type: 'sightseeing' },
     { text: 'Check-In: Hoshino Resort KAI (♨️)',
       sub:  'Sukumogawa riverside ryokan',  type: 'hotel' },
     { text: 'Depart Hakone-Yumoto (5:46 PM)',
@@ -259,8 +260,8 @@ export const schedule = [
       sub:  'Yakitori counter · Toranomon · ¥2,500–4,000', type: 'dining' },
     { text: 'Dinner - Yoroniku (酔肉) (booked)',
       sub:  '⭐ Michelin · wagyu yakiniku · res. 7:15 PM', type: 'dining' },
-    { text: 'Dinner - Sushi Dai (寿司大)',
-      sub:  '⭐ Abroad in Japan · Tsukiji · Tabelog 4.05 · ~¥3,500', type: 'dining' },
+    { text: 'Dinner - Sushi Zanmai (寿司三昧)',
+      sub:  '24-hr sushi · Tsukiji · walk-in · very fresh', type: 'dining' },
     { text: 'Sayonara Tokyo! 🎌',
       sub:  'いってらっしゃい',              type: 'travel' },
   ],
@@ -268,8 +269,8 @@ export const schedule = [
   [
     { text: 'Ginza Kagari (銀座 篝)',
       sub:  'Join queue at 6 PM · walk-in only · 5 min walk', type: 'dining' },
-    { text: '+81-3-3842-4001',
-      sub:  'Komagata Dozeu',              type: 'dining' },
+    { text: 'Komagata Dozeu (駒形どぜう)',
+      sub:  'Loach hotpot · tatami · open until 9 PM', type: 'dining' },
     { text: 'Relax at Hoshino Resort KAI',
       sub:  'Tatami lounge · evening stroll', type: 'hotel' },
     { text: 'Dinner - Omoide Yokocho (思い出横丁)',
@@ -278,8 +279,8 @@ export const schedule = [
       sub:  'Arrive by 6 PM for walk-in · or call to reserve', type: 'dining' },
     { text: 'Yoroniku (Ebisu)',
       sub:  'Reservation confirmed · arrive on time', type: 'dining' },
-    { text: 'No reservations at Sushi Dai',
-      sub:  'Queue from 6 PM for best seats', type: 'dining' },
+    { text: 'Sushi Zanmai (寿司三昧)',
+      sub:  'Open 24 hrs · no reservation · stall browsing too', type: 'dining' },
     null,
   ],
   // ── 9:00 PM ──────────────────────────────────────────────────────────────
