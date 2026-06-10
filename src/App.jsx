@@ -45,7 +45,7 @@ export default function App() {
           className={`view-tab ${view === 'options' ? 'active' : ''}`}
           onClick={() => setView('options')}
         >
-          🧭 Adjust Trip
+          🧭 <span className="tab-label-full">Adjust Trip</span><span className="tab-label-short">Trip</span>
         </button>
       </nav>
 
