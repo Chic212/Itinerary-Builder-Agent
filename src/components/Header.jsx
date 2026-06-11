@@ -1,7 +1,7 @@
 import { tripInfo } from '../data/itinerary'
 
 export default function Header() {
-  const nights = 7
+  const nights = 6
 
   return (
     <header className="header">

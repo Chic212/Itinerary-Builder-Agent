@@ -27,7 +27,7 @@ export default function HotelCard() {
             </div>
             <div className="info-row">
               <span className="info-label">Duration</span>
-              <span className="info-value">7 Nights</span>
+              <span className="info-value">6 Nights</span>
             </div>
             <div className="info-row">
               <span className="info-label">Address</span>

@@ -3,8 +3,8 @@
 // Travel times from Higashi-Ginza / Ginza Station
 
 export const gridDays = [
-  { date: '13-Jun', dayOfWeek: 'Saturday',  label: 'Arrival Day',                  emoji: '✈️' },
-  { date: '14-Jun', dayOfWeek: 'Sunday',    label: 'Asakusa, Kappabashi & Skytree', emoji: '⛩️' },
+  { date: '13-Jun', dayOfWeek: 'Saturday',  label: 'Fly to Tokyo (AC9 · 1:35 PM)', emoji: '✈️' },
+  { date: '14-Jun', dayOfWeek: 'Sunday',    label: 'Arrive Narita 3:50 PM · Ginza', emoji: '🛬' },
   { date: '15-Jun', dayOfWeek: 'Monday',    label: 'Hakone Day Trip (Overnight)',  emoji: '🗻' },
   { date: '16-Jun', dayOfWeek: 'Tuesday',   label: 'Hakone → Return to Shinjuku',  emoji: '🚄' },
   { date: '17-Jun', dayOfWeek: 'Wednesday', label: 'Yanaka Old Town & Akihabara',   emoji: '🏮' },
@@ -35,9 +35,9 @@ export const timeSlots = [
 export const schedule = [
   // ── 7:00 AM ──────────────────────────────────────────────────────────────
   [
-    { text: 'Depart for Airport',          type: 'travel' },
-    { text: 'Travel - Asakusa',
-      sub:  'Toei Asakusa Line · 22 min · arrive 7:22 AM', type: 'travel' },
+    null,
+    { text: 'In Flight ✈️',
+      sub:  'Lands NRT 3:50 PM JST',       type: 'travel' },
     { text: 'Pack overnight bag',          type: 'prep' },
     { text: 'Wake up · morning onsen',
       sub:  '♨️ Quietest soak of the day',  type: 'sightseeing' },
@@ -48,9 +48,9 @@ export const schedule = [
   ],
   // ── 8:00 AM ──────────────────────────────────────────────────────────────
   [
-    { text: 'Travel - Japan ✈️',           type: 'travel' },
-    { text: 'Senso-ji Temple (浅草寺)',
-      sub:  '⛩️ Arrive early — before the crowds',  type: 'highlight' },
+    { text: 'Final packing & checks',
+      sub:  'Times in EDT (Toronto)',      type: 'prep' },
+    { text: 'In Flight ✈️',               type: 'travel' },
     { text: 'Depart for Hakone (8:11 AM)',
       sub:  'Odakyu Romancecar fr. Shinjuku', type: 'travel' },
     { text: 'Breakfast — Hoshino Resort KAI',
@@ -63,9 +63,9 @@ export const schedule = [
   ],
   // ── 9:00 AM ──────────────────────────────────────────────────────────────
   [
+    { text: 'Online check-in — AC9',
+      sub:  'Boarding pass · seat check',  type: 'prep' },
     { text: 'In Flight ✈️',               type: 'travel' },
-    { text: 'Nakamise Shopping Street',
-      sub:  'Traditional snacks · souvenirs', type: 'shopping' },
     { text: 'Romancecar to Hakone',
       sub:  'Mountain views · ~85 min',    type: 'travel' },
     { text: 'Pack up & check out',
@@ -81,9 +81,9 @@ export const schedule = [
   ],
   // ── 10:00 AM ─────────────────────────────────────────────────────────────
   [
+    { text: 'Depart for Pearson (YYZ)',
+      sub:  'Arrive ~3 hrs before departure', type: 'travel' },
     { text: 'In Flight ✈️',               type: 'travel' },
-    { text: 'Kappabashi Kitchen Town (合羽橋)',
-      sub:  '⭐ Paolo from TOKYO · knives · ceramics · sampuru', type: 'shopping' },
     { text: 'Hakone Open-Air Museum',
       sub:  '⭐ Picasso pavilion · sculpture park', type: 'culture' },
     { text: 'Gora Park (強羅公園)',
@@ -99,9 +99,9 @@ export const schedule = [
   ],
   // ── 11:00 AM ─────────────────────────────────────────────────────────────
   [
-    { text: 'Arrive Tokyo NRT / HND',     type: 'travel' },
-    { text: 'Travel - Skytree',
-      sub:  'Walk from Asakusa · 10 min', type: 'travel' },
+    { text: 'Check-in & security — T1',
+      sub:  'Air Canada international counters', type: 'prep' },
+    { text: 'In Flight ✈️',               type: 'travel' },
     { text: 'Hakone Tozan Train & Cable Car',
       sub:  '🚞 Switchback railway → Gora → Sounzan', type: 'highlight' },
     { text: 'Hakone Museum of Art',
@@ -117,10 +117,10 @@ export const schedule = [
   ],
   // ── 12:00 PM ─────────────────────────────────────────────────────────────
   [
-    { text: 'Transfer - Grand Ginza Hotel',
-      sub:  'N\'EX 85 min or Keikyu 30 min', type: 'travel' },
-    { text: 'Tokyo Skytree (東京スカイツリー)',
-      sub:  '⭐ Abroad in Japan · Tembo Deck 350m', type: 'highlight' },
+    { text: 'Lunch airside',
+      sub:  'First meal service is ~2 hrs in', type: 'dining' },
+    { text: 'In Flight ✈️',
+      sub:  'Breakfast service',           type: 'travel' },
     { text: 'Owakudani Ropeway (大涌谷)',
       sub:  '⛰️ Volcanic valley · kuro-tamago black eggs', type: 'highlight' },
     { text: 'Lunch - Hakone Kamameshi Soba (箱根釜めし)',
@@ -136,10 +136,9 @@ export const schedule = [
   ],
   // ── 1:00 PM ──────────────────────────────────────────────────────────────
   [
-    { text: 'Narita Express (N\'EX)',
-      sub:  'or Keikyu Line from Higashi-Ginza', type: 'travel' },
-    { text: 'Solamachi 6F Dining',
-      sub:  'Ramen / tempura / various',   type: 'dining' },
+    { text: '✈️ AC9 departs 1:35 PM',
+      sub:  'Boeing 787-9 · 13h15m nonstop', type: 'travel' },
+    { text: 'In Flight ✈️',               type: 'travel' },
     { text: 'Mt. Fuji Views from Ropeway',
       sub:  'On clear days · camera ready', type: 'highlight' },
     { text: 'Hakone-Yumoto Shopping St.',
@@ -155,10 +154,10 @@ export const schedule = [
   ],
   // ── 2:00 PM ──────────────────────────────────────────────────────────────
   [
-    { text: 'Settle in.',
-      sub:  'Check-in · rest · freshen up',type: 'hotel' },
-    { text: 'Sumida River Walk',
-      sub:  'Scenic path · old bridges',   type: 'sightseeing' },
+    { text: 'In Flight ✈️',
+      sub:  'Set watch to JST (+13 hrs)',  type: 'travel' },
+    { text: 'In Flight ✈️',
+      sub:  'Descent into Narita',         type: 'travel' },
     { text: 'Lake Ashi Pirate Ship Cruise',
       sub:  '⛴️ Replica galleon · Mt. Fuji backdrop', type: 'highlight' },
     { text: 'Souvenir Shopping',
@@ -174,9 +173,10 @@ export const schedule = [
   ],
   // ── 3:00 PM ──────────────────────────────────────────────────────────────
   [
-    null,
-    { text: 'Asakusa neighbourhood',
-      sub:  'Side streets · temple area · local cafés', type: 'sightseeing' },
+    { text: 'In Flight ✈️',
+      sub:  'Dinner service · then sleep', type: 'travel' },
+    { text: '🛬 Land NRT 3:50 PM — T1',
+      sub:  'Immigration · Visit Japan Web QR', type: 'travel' },
     { text: 'Hakone Shrine (箱根神社)',
       sub:  '⭐ Iconic red torii gate in the lake', type: 'highlight' },
     { text: 'One Last Onsen Soak',
@@ -192,10 +192,9 @@ export const schedule = [
   ],
   // ── 4:00 PM ──────────────────────────────────────────────────────────────
   [
-    { text: 'Ginza Stroll (銀座)',
-      sub:  'Chuo-dori pedestrian street · Sat only', type: 'sightseeing' },
-    { text: 'Free afternoon · Asakusa',
-      sub:  'Browse or rest before dinner', type: 'sightseeing' },
+    { text: 'In Flight ✈️',               type: 'travel' },
+    { text: 'Baggage & customs',
+      sub:  'Welcome Suica · 7-Bank ATM cash', type: 'prep' },
     { text: 'Hakone Shrine Lakeside Walk',
       sub:  'Photo spot · Mt. Fuji views',  type: 'sightseeing' },
     { text: 'Travel - Hakone-Yumoto Sta.',
@@ -210,10 +209,9 @@ export const schedule = [
   ],
   // ── 5:00 PM ──────────────────────────────────────────────────────────────
   [
-    { text: 'Ginza Stroll',
-      sub:  'Itoya · Mikimoto · Hermès flagship', type: 'sightseeing' },
-    { text: 'Dusk stroll · Asakusa',
-      sub:  'Riverside views · Nakamise at dusk', type: 'sightseeing' },
+    { text: 'In Flight ✈️',               type: 'travel' },
+    { text: 'N\'EX to Tokyo Station',
+      sub:  'Dep. ~5:15 PM · ~55 min direct', type: 'travel' },
     { text: 'Check-In: Hoshino Resort KAI (♨️)',
       sub:  'Sukumogawa riverside ryokan',  type: 'hotel' },
     { text: 'Depart Hakone-Yumoto (5:46 PM)',
@@ -229,10 +227,9 @@ export const schedule = [
   ],
   // ── 6:00 PM ──────────────────────────────────────────────────────────────
   [
-    { text: 'Travel - Ginza Kagari',
-      sub:  '5 min walk from hotel',       type: 'travel' },
-    { text: 'Hoppy Street (ホッピー通り)',
-      sub:  'Asakusa · yakitori & hoppy beer', type: 'dining' },
+    { text: 'In Flight ✈️',               type: 'travel' },
+    { text: 'Transfer - Grand Ginza Hotel',
+      sub:  'Taxi 10 min from Tokyo Sta.', type: 'travel' },
     { text: 'Onsen Soak (♨️)',
       sub:  'Natural hot spring · relax & unwind', type: 'sightseeing' },
     { text: 'Romancecar to Shinjuku',
@@ -248,10 +245,9 @@ export const schedule = [
   ],
   // ── 7:00 PM ──────────────────────────────────────────────────────────────
   [
-    { text: 'Dinner - Ginza Kagari (銀座 篝)',
-      sub:  'Chicken paitan ramen · Tabelog 3.72 · walk-in · ~¥1,500', type: 'dining' },
-    { text: 'Dinner - Komagata Dozeu (駒形どぜう)',
-      sub:  'Asakusa · loach hotpot · Tabelog 3.67 · ~¥3,000', type: 'dining' },
+    { text: 'In Flight ✈️',               type: 'travel' },
+    { text: 'Check in & freshen up',
+      sub:  'Grand Ginza Hotel',           type: 'hotel' },
     { text: 'Kaiseki Dinner — KAI Hakone',
       sub:  'Multi-course ryokan feast · wear your yukata', type: 'dining' },
     { text: 'Arrive Shinjuku (7:26 PM)',
@@ -267,10 +263,9 @@ export const schedule = [
   ],
   // ── 8:00 PM ──────────────────────────────────────────────────────────────
   [
-    { text: 'Ginza Kagari (銀座 篝)',
-      sub:  'Join queue at 6 PM · walk-in only · 5 min walk', type: 'dining' },
-    { text: 'Komagata Dozeu (駒形どぜう)',
-      sub:  'Loach hotpot · tatami · open until 9 PM', type: 'dining' },
+    { text: 'In Flight ✈️',               type: 'travel' },
+    { text: 'Dinner - Ginza Kagari (銀座 篝)',
+      sub:  'Chicken paitan ramen · Tabelog 3.72 · ~¥1,500', type: 'dining' },
     { text: 'Relax at Hoshino Resort KAI',
       sub:  'Tatami lounge · evening stroll', type: 'hotel' },
     { text: 'Dinner - Omoide Yokocho (思い出横丁)',
@@ -285,10 +280,9 @@ export const schedule = [
   ],
   // ── 9:00 PM ──────────────────────────────────────────────────────────────
   [
-    { text: 'Travel - Hotel',
-      sub:  '8 min walk',                  type: 'travel' },
-    { text: 'Travel - Hotel',
-      sub:  'Toei Asakusa Line · 22 min',  type: 'travel' },
+    { text: 'In Flight ✈️',               type: 'travel' },
+    { text: 'Ginza neon stroll',
+      sub:  'Chuo-dori · Wako clock · short & easy', type: 'sightseeing' },
     { text: '"Secrets of Hakone" Cultural Show',
       sub:  '🏮 Yosegi marquetry tales · puzzle box', type: 'culture' },
     { text: 'Golden Gai (ゴールデン街)',
@@ -303,8 +297,9 @@ export const schedule = [
   ],
   // ── 10:00 PM ─────────────────────────────────────────────────────────────
   [
-    null,
-    null,
+    { text: 'In Flight ✈️',               type: 'travel' },
+    { text: 'Early night — beat jet lag',
+      sub:  'Romancecar at 8:11 AM tomorrow', type: 'hotel' },
     null,
     { text: 'Travel - Grand Ginza Hotel',
       sub:  'Marunouchi + Ginza Lines · ~35 min', type: 'travel' },
@@ -314,5 +309,8 @@ export const schedule = [
     null,
   ],
   // ── 11:00 PM ─────────────────────────────────────────────────────────────
-  [null, null, null, null, null, null, null, null],
+  [
+    { text: 'In Flight ✈️',               type: 'travel' },
+    null, null, null, null, null, null, null,
+  ],
 ]
